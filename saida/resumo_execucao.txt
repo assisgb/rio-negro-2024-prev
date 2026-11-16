@@ -1,0 +1,28 @@
+treino: 44485 dias, de 1902-09-15 a 2024-06-30 | cota em 30/06/2024 = 26.80 m
+tabela de variaveis: 122 anos x 164 variaveis (14 usadas pelo modelo)
+
+BACKTEST (Nota Final com o minimo observado de cada ano; menor e melhor)
+bloco                         modelo  baseline 15 anos
+2005-2018                       1.12              1.53
+2019-2023                       1.23              1.50
+media 2005-2023                 1.15              1.52
+secas (2005,2010,2015,2023)     1.38              2.77
+1995-2023                       1.43              1.65
+
+PREVISAO 2024
+minimo previsto: 14.30 m em 2024-10-25 | media out-nov 15.19 m | 31/12: 19.47 m
+minimo de cada membro: clima 13.81 m, clima+rios 14.19 m, a_priori 14.92 m
+
+PROBABILIDADE (bonus de alerta)
+P(cota < 14 m em outubro/2024) = 59% (17 de 29 trajetorias)
+P(cota < 17 m em outubro/2024) = 97%
+
+NOTA FINAL (regras do hackathon, com a cota observada de jul-dez/2024)
+0,60 x RMSE out-nov  2.42 = 1.45
+0,25 x RMSE jul-dez  1.96 = 0.49
+0,15 x |14.30 - 12,11| 2.19 = 0.33
+Nota Final (formula) = 2.27 m
+Bonus de alerta (P informada 59% >= 10%) = -0.20 m
+Nota Final com bonus = 2.07 m
+
+arquivos gravados em saida/: previsao_cota_2024.csv, grafico1_2024.png, grafico2_vazante.png, resumo_execucao.txt

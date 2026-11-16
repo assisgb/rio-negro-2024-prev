@@ -1,0 +1,7 @@
+arquivo,pasta,url_original,origem,data_captura_ou_periodo,sha256,bytes
+sstoi.indices,noaa,https://www.cpc.ncep.noaa.gov/data/indices/sstoi.indices,wayback:20240620113354,2024-06-20,32783951f75d5ef10edb8fabfe8ed2a3ae05a386fc1019f8f89de6c80ba014f7,37228
+sstoi.atl.indices,noaa,https://www.cpc.ncep.noaa.gov/data/indices/sstoi.atl.indices,wayback:20240423012713,2024-04-23,7014ddcffd443f59aba69f0fbdb10a24b57c42dcc9e8148cdde925d8f37e4d9e,28954
+soi_cpc.txt,noaa,https://www.cpc.ncep.noaa.gov/data/indices/soi,wayback:20240620100520,2024-06-20,06ad783648637db65b363722da722c5d28be58bd1172a979efc42284a4d9dcef,12968
+tna.data,noaa,https://psl.noaa.gov/data/correlation/tna.data,wayback:20240304085241,2024-03-04,ee82541247af64dc1f2417504d7b8f27e6f9b31096835faaf001ebf0e8e1e810,7965
+cota_13870000_labrea.csv,ana,http://telemetriaws1.ana.gov.br/ServiceANA.asmx/HidroSerieHistorica (dataFim=30/06/2024),api:2026-11-14,1927-10-07..2024-06-30,661cfe44d9e05e664b02c35b454fd510ced75ee0211f8d3756aeef3517ccd1e0,1853061
+cota_15630000_humaita.csv,ana,http://telemetriaws1.ana.gov.br/ServiceANA.asmx/HidroSerieHistorica (dataFim=30/06/2024),api:2026-11-14,1931-03-01..2024-06-30,9aa86e989af9c107de210bf351c6b9c049962639dd4b26d1905f5a9d5418b5c3,1570872
